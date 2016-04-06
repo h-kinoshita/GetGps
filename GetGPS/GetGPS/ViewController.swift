@@ -16,7 +16,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     // 現在地の位置情報取得にはCLLocationManagerを使用
     var locationManager: CLLocationManager!
     
-    // 取得した井戸を保存するインスタンス
+    // 取得した緯度を保存するインスタンス
     var latitude: CLLocationDegrees!
     
     // 取得した経度を保持するインスタンス
@@ -49,7 +49,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     // 位置情報取得成功時に実行される関数
     func locationManager(manager: CLLocationManager, didUpdateToLocation newLocation: CLLocation, fromLocation oldLocation: CLLocation) {
         
-        // 取得した経度がnewLocation.coordinate.latitudeに格納されている
+        // 取得した緯度がnewLocation.coordinate.latitudeに格納されている
         latitude = newLocation.coordinate.latitude
         
         // 取得した経度がnewLocation.coordinate.longitudeに格納されている
