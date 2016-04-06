@@ -15,6 +15,7 @@
 		530CF9D81CB555AD00A831E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530CF9D61CB555AD00A831E2 /* LaunchScreen.storyboard */; };
 		530CF9E31CB555AE00A831E2 /* GetGPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530CF9E21CB555AE00A831E2 /* GetGPSTests.swift */; };
 		530CF9EE1CB555AE00A831E2 /* GetGPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530CF9ED1CB555AE00A831E2 /* GetGPSUITests.swift */; };
+		530CF9FC1CB5836E00A831E2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 530CF9FB1CB5836E00A831E2 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		530CF9E91CB555AE00A831E2 /* GetGPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetGPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		530CF9ED1CB555AE00A831E2 /* GetGPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGPSUITests.swift; sourceTree = "<group>"; };
 		530CF9EF1CB555AE00A831E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530CF9FB1CB5836E00A831E2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530CF9FC1CB5836E00A831E2 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		530CF9BE1CB555AD00A831E2 = {
 			isa = PBXGroup;
 			children = (
+				530CF9FB1CB5836E00A831E2 /* CoreLocation.framework */,
 				530CF9C91CB555AD00A831E2 /* GetGPS */,
 				530CF9E11CB555AE00A831E2 /* GetGPSTests */,
 				530CF9EC1CB555AE00A831E2 /* GetGPSUITests */,
