@@ -22,6 +22,16 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     // 取得した経度を保持するインスタンス
     var longitude: CLLocationDegrees!
     
+    
+    // MARK: - Outlets
+    
+    @IBOutlet weak var latitudeLabel: UILabel!
+    @IBOutlet weak var longitudeLabel: UILabel!
+    @IBOutlet weak var altitudeLable: UILabel!
+    @IBOutlet weak var compassPointLabel: UILabel!
+    @IBOutlet weak var speedLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

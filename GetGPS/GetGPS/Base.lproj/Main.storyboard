@@ -175,6 +175,14 @@
                         </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="altitudeLable" destination="avm-01-aJM" id="UjB-uJ-N3N"/>
+                        <outlet property="compassPointLabel" destination="5Gf-Cb-XfY" id="h5m-wo-hKN"/>
+                        <outlet property="latitudeLabel" destination="Tcq-xH-scq" id="gWL-vj-AlA"/>
+                        <outlet property="longitudeLabel" destination="B4k-wX-fff" id="qr0-RW-Jy7"/>
+                        <outlet property="speedLabel" destination="fgx-Rv-Ewk" id="9Wo-fd-t13"/>
+                        <outlet property="timeLabel" destination="TiJ-gk-b4E" id="vRA-W8-hf5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
