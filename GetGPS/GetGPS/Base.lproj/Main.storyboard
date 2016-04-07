@@ -110,12 +110,28 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9r-RI-XnB">
+                                <rect key="frame" x="136" y="201" width="208" height="21"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="精度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjt-Dd-YGp">
+                                <rect key="frame" x="25" y="201" width="68" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="8yy-hT-eGy" firstAttribute="width" secondItem="mrm-XF-hWL" secondAttribute="width" id="12i-rP-S8d"/>
                             <constraint firstItem="8yy-hT-eGy" firstAttribute="top" secondItem="mrm-XF-hWL" secondAttribute="bottom" constant="8" id="1Tv-Y9-3D3"/>
                             <constraint firstItem="TiJ-gk-b4E" firstAttribute="height" secondItem="fgx-Rv-Ewk" secondAttribute="height" id="2Bv-jf-nEW"/>
+                            <constraint firstItem="xjt-Dd-YGp" firstAttribute="width" secondItem="POi-oE-RXs" secondAttribute="width" id="4xE-ax-6yw"/>
+                            <constraint firstItem="xjt-Dd-YGp" firstAttribute="height" secondItem="POi-oE-RXs" secondAttribute="height" id="6v3-dD-2Ld"/>
+                            <constraint firstItem="xjt-Dd-YGp" firstAttribute="centerX" secondItem="POi-oE-RXs" secondAttribute="centerX" id="7Ed-YU-qqt"/>
                             <constraint firstItem="mrm-XF-hWL" firstAttribute="height" secondItem="YlQ-CK-szO" secondAttribute="height" id="7Nc-i4-Dy6"/>
                             <constraint firstItem="8yy-hT-eGy" firstAttribute="height" secondItem="mrm-XF-hWL" secondAttribute="height" id="84u-QB-Tk3"/>
                             <constraint firstItem="fgx-Rv-Ewk" firstAttribute="centerX" secondItem="5Gf-Cb-XfY" secondAttribute="centerX" id="87X-Ek-UW2"/>
@@ -148,15 +164,20 @@
                             <constraint firstItem="Tcq-xH-scq" firstAttribute="leading" secondItem="YlQ-CK-szO" secondAttribute="trailing" constant="31" id="hmP-ve-sY8"/>
                             <constraint firstItem="B4k-wX-fff" firstAttribute="centerX" secondItem="Tcq-xH-scq" secondAttribute="centerX" id="l0G-8o-rEA"/>
                             <constraint firstItem="xmf-V6-hiF" firstAttribute="width" secondItem="8yy-hT-eGy" secondAttribute="width" id="lOL-Vf-spf"/>
+                            <constraint firstItem="N9r-RI-XnB" firstAttribute="top" secondItem="TiJ-gk-b4E" secondAttribute="bottom" constant="7" id="let-KX-ywW"/>
+                            <constraint firstItem="N9r-RI-XnB" firstAttribute="width" secondItem="TiJ-gk-b4E" secondAttribute="width" id="orL-zN-IGa"/>
                             <constraint firstItem="POi-oE-RXs" firstAttribute="height" secondItem="JoQ-Ie-2Fj" secondAttribute="height" id="pCC-5p-Yl5"/>
                             <constraint firstItem="TiJ-gk-b4E" firstAttribute="top" secondItem="fgx-Rv-Ewk" secondAttribute="bottom" constant="8" id="pjh-9n-bXy"/>
                             <constraint firstItem="5Gf-Cb-XfY" firstAttribute="centerX" secondItem="avm-01-aJM" secondAttribute="centerX" id="q1K-mP-aoS"/>
                             <constraint firstItem="POi-oE-RXs" firstAttribute="top" secondItem="JoQ-Ie-2Fj" secondAttribute="bottom" constant="8" id="qkg-yT-ArD"/>
                             <constraint firstItem="avm-01-aJM" firstAttribute="centerX" secondItem="B4k-wX-fff" secondAttribute="centerX" id="sC2-Ff-Nc0"/>
+                            <constraint firstItem="N9r-RI-XnB" firstAttribute="centerX" secondItem="TiJ-gk-b4E" secondAttribute="centerX" id="tEB-RT-yhL"/>
                             <constraint firstItem="5Gf-Cb-XfY" firstAttribute="centerX" secondItem="avm-01-aJM" secondAttribute="centerX" id="teT-L5-L6l"/>
                             <constraint firstItem="B4k-wX-fff" firstAttribute="height" secondItem="Tcq-xH-scq" secondAttribute="height" id="uSu-Y3-TF8"/>
                             <constraint firstItem="POi-oE-RXs" firstAttribute="width" secondItem="JoQ-Ie-2Fj" secondAttribute="width" id="uar-G9-ah6"/>
+                            <constraint firstItem="N9r-RI-XnB" firstAttribute="height" secondItem="TiJ-gk-b4E" secondAttribute="height" id="ukD-uK-ve8"/>
                             <constraint firstItem="avm-01-aJM" firstAttribute="height" secondItem="B4k-wX-fff" secondAttribute="height" id="wbF-vs-7jU"/>
+                            <constraint firstItem="xjt-Dd-YGp" firstAttribute="top" secondItem="POi-oE-RXs" secondAttribute="bottom" constant="7" id="wcJ-A0-3sQ"/>
                             <constraint firstItem="JoQ-Ie-2Fj" firstAttribute="centerX" secondItem="xmf-V6-hiF" secondAttribute="centerX" id="xgD-K8-fQv"/>
                             <constraint firstItem="TiJ-gk-b4E" firstAttribute="width" secondItem="fgx-Rv-Ewk" secondAttribute="width" id="yDj-1L-XaB"/>
                             <constraint firstItem="5Gf-Cb-XfY" firstAttribute="height" secondItem="avm-01-aJM" secondAttribute="height" id="yR2-jP-WOw"/>
@@ -178,6 +199,7 @@
                     <connections>
                         <outlet property="altitudeLable" destination="avm-01-aJM" id="UjB-uJ-N3N"/>
                         <outlet property="compassPointLabel" destination="5Gf-Cb-XfY" id="h5m-wo-hKN"/>
+                        <outlet property="horizontalAccuracyLabel" destination="N9r-RI-XnB" id="1b7-JB-h0G"/>
                         <outlet property="latitudeLabel" destination="Tcq-xH-scq" id="gWL-vj-AlA"/>
                         <outlet property="longitudeLabel" destination="B4k-wX-fff" id="qr0-RW-Jy7"/>
                         <outlet property="speedLabel" destination="fgx-Rv-Ewk" id="9Wo-fd-t13"/>
